@@ -26,13 +26,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Inicio</a>
+                <a class="navbar-brand" href="index.php">Inicio</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">etc_item <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="etc_item.php">Etc item<span class="sr-only">(current)</span></a></li>
                     <li><a href="#">Armors</a></li>
                     <li><a href="#">Weapons</a></li>
                     <li><a href="#">Npcs</a></li>
@@ -80,7 +80,7 @@
                         <th>name</th>
                         <th>crytallizable</th>
                         <th>item_type</th>
-                        <th>cosume_type</th>
+                        <th>consume_type</th>
                         <th>crystal_type</th>
                         <th>sellable</th>
                         <th>dropable</th>
