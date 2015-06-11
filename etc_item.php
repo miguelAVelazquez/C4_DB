@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CUALQUIER OTRO TAG VA DEBAJO DE AQUI -->
 
-    <title>Inicio</title>
+    <title>Etc item</title>
     <!-- Hojas de estilo de Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>

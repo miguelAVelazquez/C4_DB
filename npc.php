@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CUALQUIER OTRO TAG VA DEBAJO DE AQUI -->
 
-    <title>Inicio</title>
+    <title>NPC</title>
     <!-- Hojas de estilo de Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
@@ -41,7 +41,7 @@
                     <li class="active"><a href="npc.php">Npcs</a></li>
                     <li><img src="img/blanco.jpg"/></li>
                     <li><img src="img/c4_logo.png"/></li>
-                    <li><img src="img/devsadmins.png"/></li>
+                    <li><img src="img/devsadmins.png" href="http://l2devsadmins.com/"/></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
