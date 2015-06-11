@@ -95,11 +95,11 @@
                     @$radio = $_POST['buscar'];
                     @$dato = $_POST['dato'];
 
-                    if($radio == "id")
+                    if($radio == "id" && $dato != "")
                     {
                         $consultaSQL = "SELECT * FROM etcitem WHERE item_id = '$dato'";
                     }
-                    else if ($radio =="nombre")
+                    else if ($radio =="nombre" && $dato != "")
                     {
                         $consultaSQL = "SELECT * FROM etcitem WHERE name LIKE '%$dato%'";
                     }
