@@ -1,4 +1,5 @@
-#body{
+body{
 	background-image: url(../img/goddard_wallpaper.jpg);
 	background-color: YELLOW;
+    padding-top: 50px;
 }

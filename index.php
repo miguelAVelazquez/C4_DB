@@ -13,7 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
     <!-- Hoja de estilo CSS -->
-    <!--link rel="stylesheet" type="text/css" href="css/sitio.css"-->
+    <link href="css/sitio.css" rel="stylesheet">
 
 </head>
 <body>
@@ -50,7 +50,7 @@
         </div>
     </div>
 </div>
-
+<script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
