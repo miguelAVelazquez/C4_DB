@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +12,8 @@
     <!-- Hojas de estilo de Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <!-- Hoja de estilo CSS -->
+    <!--link rel="stylesheet" type="text/css" href="css/sitio.css"-->
 
 </head>
 <body>
@@ -33,9 +36,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="etc_item.php">Etc item<span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Armors</a></li>
-                    <li><a href="#">Weapons</a></li>
-                    <li><a href="#">Npcs</a></li>
+                    <li><a href="armor.php">Armors</a></li>
+                    <li><a href="weapon.php">Weapons</a></li>
+                    <li><a href="npc.php">Npcs</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
