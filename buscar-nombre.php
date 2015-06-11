@@ -1,3 +1,11 @@
+<?php
+include("db/Conexion.php");
+$con = Conexion::conectar();
+
+$radio = $_REQUEST['buscar'];
+$dato = $_REQUEST['dato'];
+
+?>
 <!-- ESTO ES UNA PAGINA CON DISEÑO DE BOOTSTRAP-->
 <!DOCTYPE html>
 <html lang="es">
@@ -7,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CUALQUIER OTRO TAG VA DEBAJO DE AQUI -->
 
-    <title>Inicio</title>
+    <title>Busqueda Personalizada</title>
     <!-- Hojas de estilo de Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
@@ -75,40 +83,60 @@
         <div class="col-md-12">
             <table class="table">
                 <thead>
-                    <tr>
-                        <th>item_id</th>
-                        <th>name</th>
-                        <th>crytallizable</th>
-                        <th>item_type</th>
-                        <th>cosume_type</th>
-                        <th>crystal_type</th>
-                        <th>sellable</th>
-                        <th>dropable</th>
-                        <th>destroyable</th>
-                        <th>tradeable</th>
-                    </tr>
+                <tr>
+                    <th>item_id</th>
+                    <th>name</th>
+                    <th>crytallizable</th>
+                    <th>item_type</th>
+                    <th>cosume_type</th>
+                    <th>crystal_type</th>
+                    <th>sellable</th>
+                    <th>dropable</th>
+                    <th>destroyable</th>
+                    <th>tradeable</th>
+                </tr>
                 </thead>
                 <tbody id="cuerpo">
-                        <?php
-/*                      include("db/Conexion.php");
-                        $con = Conexion::conectar();
-                        $consultaSQL = "SELECT * FROM etcitem ORDER BY item_id ASC";
-                        foreach( $con->query( $consultaSQL ) as $fila )
-                        {
-                            echo "<tr>";
-                            echo "<td>".$fila['item_id']."</td>";
-                            echo "<td>".$fila['name']."</td>";
-                            echo "<td>".$fila['crystallizable']."</td>";
-                            echo "<td>".$fila['item_type']."</td>";
-                            echo "<td>".$fila['consume_type']."</td>";
-                            echo "<td>".$fila['crystal_type']."</td>";
-                            echo "<td>".$fila['sellable']."</td>";
-                            echo "<td>".$fila['dropable']."</td>";
-                            echo "<td>".$fila['destroyable']."</td>";
-                            echo "<td>".$fila['tradeable']."</td>";
-                            echo "</tr>";
-                        }
-                        */?>
+                <?php
+                if($radio == "id")
+                {
+                    $consultaSQL = "SELECT * FROM etcitem WHERE item_id = '$dato'";
+                    foreach( $con->query( $consultaSQL ) as $fila )
+                    {
+                        echo "<tr>";
+                        echo "<td>".$fila['item_id']."</td>";
+                        echo "<td>".$fila['name']."</td>";
+                        echo "<td>".$fila['crystallizable']."</td>";
+                        echo "<td>".$fila['item_type']."</td>";
+                        echo "<td>".$fila['consume_type']."</td>";
+                        echo "<td>".$fila['crystal_type']."</td>";
+                        echo "<td>".$fila['sellable']."</td>";
+                        echo "<td>".$fila['dropable']."</td>";
+                        echo "<td>".$fila['destroyable']."</td>";
+                        echo "<td>".$fila['tradeable']."</td>";
+                        echo "</tr>";
+                    }
+                }
+                else if ($radio =="nombre")
+                {
+                    $consultaSQL = "SELECT * FROM etcitem WHERE name LIKE '%$dato%'";
+                    foreach( $con->query( $consultaSQL ) as $fila )
+                    {
+                        echo "<tr>";
+                        echo "<td>".$fila['item_id']."</td>";
+                        echo "<td>".$fila['name']."</td>";
+                        echo "<td>".$fila['crystallizable']."</td>";
+                        echo "<td>".$fila['item_type']."</td>";
+                        echo "<td>".$fila['consume_type']."</td>";
+                        echo "<td>".$fila['crystal_type']."</td>";
+                        echo "<td>".$fila['sellable']."</td>";
+                        echo "<td>".$fila['dropable']."</td>";
+                        echo "<td>".$fila['destroyable']."</td>";
+                        echo "<td>".$fila['tradeable']."</td>";
+                        echo "</tr>";
+                    }
+                }
+                ?>
                 </tbody>
             </table>
         </div>

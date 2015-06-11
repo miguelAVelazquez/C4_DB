@@ -1,13 +1,16 @@
 <?php
-include('Config.php');
 /**
  * Created by Tavo.
  * Date: 10/06/2015
  * Time: 08:11 PM
  * CLASE QUE CONECTA A UNA BD MYSQL MEDIANTE PDO
  */
-class Conexion extends Config
+class Conexion
 {
+    protected static $dbDatabase = "l2_items";
+    protected static $dbHost = "localhost";
+    protected static $dbUsuario = "root";
+    protected static $dbContrasena = "smtavo1991";
     private static $conexion = null;
     private static $opcionesDriver = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
 
