@@ -18,7 +18,6 @@
 </head>
 <body>
 <div class="container">
-
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -33,12 +32,15 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav">
                     <li><a href="etc_item.php">Etc item<span class="sr-only">(current)</span></a></li>
                     <li><a href="armor.php">Armors</a></li>
                     <li><a href="weapon.php">Weapons</a></li>
                     <li><a href="npc.php">Npcs</a></li>
+                    <li><img src="img/blanco.jpg"/></li>
+                    <li><img src="img/c4_logo.png"/></li>
+                    <li><img src="img/devsadmins.png"/></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

@@ -39,6 +39,9 @@
                     <li class="active"><a href="armor.php">Armors</a></li>
                     <li><a href="weapon.php">Weapons</a></li>
                     <li><a href="npc.php">Npcs</a></li>
+                    <li><img src="img/blanco.jpg"/></li>
+                    <li><img src="img/c4_logo.png"/></li>
+                    <li><img src="img/devsadmins.png"/></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
