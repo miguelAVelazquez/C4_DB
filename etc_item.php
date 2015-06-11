@@ -43,7 +43,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <form method="get" action="buscar-nombre.php" >
+            <form method="post" action="etc_item.php" >
                 <div class="row">
                     <div class="col-md-1">
                         <div class="radio">
@@ -89,35 +89,50 @@
                     </tr>
                 </thead>
                 <tbody id="cuerpo">
-                        <?php
-/*                      include("db/Conexion.php");
-                        $con = Conexion::conectar();
-                        $consultaSQL = "SELECT * FROM etcitem ORDER BY item_id ASC";
+                <?php
+                    include("db/Conexion.php");
+                    $con = Conexion::conectar();
+                    @$radio = $_POST['buscar'];
+                    @$dato = $_POST['dato'];
+
+                    if($radio == "id")
+                    {
+                        $consultaSQL = "SELECT * FROM etcitem WHERE item_id = '$dato'";
+                    }
+                    else if ($radio =="nombre")
+                    {
+                        $consultaSQL = "SELECT * FROM etcitem WHERE name LIKE '%$dato%'";
+                    }
+                    else
+                    {
+                        $con = Conexion::desconectar(); /* Comentario1: Aplicar una desconexion ya que no hay nada seleccionado*/
+                    }
+
+                    if ($con != null)
+                    {
                         foreach( $con->query( $consultaSQL ) as $fila )
-                        {
-                            echo "<tr>";
-                            echo "<td>".$fila['item_id']."</td>";
-                            echo "<td>".$fila['name']."</td>";
-                            echo "<td>".$fila['crystallizable']."</td>";
-                            echo "<td>".$fila['item_type']."</td>";
-                            echo "<td>".$fila['consume_type']."</td>";
-                            echo "<td>".$fila['crystal_type']."</td>";
-                            echo "<td>".$fila['sellable']."</td>";
-                            echo "<td>".$fila['dropable']."</td>";
-                            echo "<td>".$fila['destroyable']."</td>";
-                            echo "<td>".$fila['tradeable']."</td>";
-                            echo "</tr>";
-                        }
-                        */?>
+                            {
+                                echo "<tr>";
+                                echo "<td>".$fila['item_id']."</td>";
+                                echo "<td>".$fila['name']."</td>";
+                                echo "<td>".$fila['crystallizable']."</td>";
+                                echo "<td>".$fila['item_type']."</td>";
+                                echo "<td>".$fila['consume_type']."</td>";
+                                echo "<td>".$fila['crystal_type']."</td>";
+                                echo "<td>".$fila['sellable']."</td>";
+                                echo "<td>".$fila['dropable']."</td>";
+                                echo "<td>".$fila['destroyable']."</td>";
+                                echo "<td>".$fila['tradeable']."</td>";
+                                echo "</tr>";
+                            }
+                        $con = Conexion::desconectar(); /* Comentario2: Aplicar una desconexion ya que se completo la consulta*/
+                    }
+                ?>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
-
-<script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script>
-</script>
 </body>
 </html>

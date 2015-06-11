@@ -11,5 +11,4 @@ class Config
     protected static $dbHost = "localhost";
     protected static $dbUsuario = "root";
     protected static $dbContrasena = "smtavo1991";
-
 }
