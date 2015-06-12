@@ -11,7 +11,7 @@ class Config
     protected static $dbDatabase = "l2_items";
     protected static $dbHost = "localhost";
     protected static $dbUsuario = "root";
-    protected static $dbContrasena = "";
+    protected static $dbContrasena = "smtavo1991";
 }
 
 class Conexion extends Config

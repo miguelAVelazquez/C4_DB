@@ -1,7 +1,6 @@
-
 <div class="row">
     <div class="col-md-12">
-        <form method="post" action="armor" >
+        <form method="post" action="etc_item" id="form-busqueda" >
             <div class="row">
                 <div class="col-md-1">
                     <div class="radio">

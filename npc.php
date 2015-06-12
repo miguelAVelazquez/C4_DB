@@ -1,3 +1,9 @@
+<?php
+include("db/Conexion.php");
+$con = Conexion::conectar();
+@$radio = $_POST['buscar'];
+@$dato = $_POST['dato'];
+?>
 <!-- Se hace uso de include para incluir una plantilla y que sea mas facil su modificacion-->
 <?php include('template/header.php');?>
 <div class="container">
@@ -20,11 +26,6 @@
                 </thead>
                 <tbody id="cuerpo">
                 <?php
-                    include("db/Conexion.php");
-                    $con = Conexion::conectar();
-                    @$radio = $_POST['buscar'];
-                    @$dato = $_POST['dato'];
-
                     if($radio == "id" && $dato != "")
                     {
                         $consultaSQL = "SELECT * FROM npc WHERE id = '$dato'";
@@ -59,4 +60,7 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(function(){$('#form-busqueda').attr('action','npc');});
+</script>
 <?php include('template/footer.php');?>

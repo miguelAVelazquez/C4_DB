@@ -14,5 +14,7 @@
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
     <!-- Hoja de estilo propios -->
     <link href="css/sitio.css" rel="stylesheet">
+
+    <script src="js/jquery-1.11.3.min.js"></script>
 </head>
 <body>
