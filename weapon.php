@@ -29,16 +29,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Inicio</a>
+                <a class="navbar-brand" href="index">Inicio</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="etc_item.php">Etc item<span class="sr-only">(current)</span></a></li>
-                    <li><a href="armor.php">Armors</a></li>
-                    <li class="active"><a href="weapon.php">Weapons</a></li>
-                    <li><a href="npc.php">Npcs</a></li>
+                    <li><a href="etc_item">Etc item<span class="sr-only">(current)</span></a></li>
+                    <li><a href="armor">Armors</a></li>
+                    <li class="active"><a href="weapon">Weapons</a></li>
+                    <li><a href="npc">Npcs</a></li>
                     <li><img src="img/blanco.jpg"/></li>
                     <li><img src="img/c4_logo.png"/></li>
                     <li><img src="img/devsadmins.png"/></li>
@@ -49,7 +49,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <form method="post" action="weapon.php" >
+            <form method="post" action="weapon" >
                 <div class="row">
                     <div class="col-md-1">
                         <div class="radio">
