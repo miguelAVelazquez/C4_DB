@@ -42,16 +42,16 @@ $con = Conexion::conectar();
                     if ($con != null)
                     {
                         foreach( $con->query( $consultaSQL ) as $fila )
-                            {
-                                echo "<tr>";
-                                echo "<td>".$fila['id']."</td>";
-                                echo "<td>".$fila['idTemplate']."</td>";
-                                echo "<td>".$fila['name']."</td>";
-                                echo "<td>".$fila['title']."</td>";
-                                echo "<td>".$fila['class']."</td>";
-                                echo "<td>".$fila['level']."</td>";
-                                echo "</tr>";
-                            }
+                        {
+                            echo "<tr>";
+                            echo "<td>".$fila['id']."</td>";
+                            echo "<td>".$fila['idTemplate']."</td>";
+                            echo "<td>".$fila['name']."</td>";
+                            echo "<td>".$fila['title']."</td>";
+                            echo "<td>".$fila['class']."</td>";
+                            echo "<td>".$fila['level']."</td>";
+                            echo "</tr>";
+                        }
                         $con = Conexion::desconectar(); /* Comentario2: Aplicar una desconexion ya que se completo la consulta*/
                     }
                 ?>

@@ -48,20 +48,20 @@ $con = Conexion::conectar();
                     if ($con != null)
                     {
                         foreach( $con->query( $consultaSQL ) as $fila )
-                            {
-                                echo "<tr>";
-                                echo "<td>".$fila['item_id']."</td>";
-                                echo "<td>".$fila['name']."</td>";
-                                echo "<td>".$fila['bodypart']."</td>";
-                                echo "<td>".$fila['crystallizable']."</td>";
-                                echo "<td>".$fila['crystal_type']."</td>";
-                                echo "<td>".$fila['weaponType']."</td>";
-                                echo "<td>".$fila['sellable']."</td>";
-                                echo "<td>".$fila['dropable']."</td>";
-                                echo "<td>".$fila['destroyable']."</td>";
-                                echo "<td>".$fila['tradeable']."</td>";
-                                echo "</tr>";
-                            }
+                        {
+                            echo "<tr>";
+                            echo "<td>".$fila['item_id']."</td>";
+                            echo "<td>".$fila['name']."</td>";
+                            echo "<td>".$fila['bodypart']."</td>";
+                            echo "<td>".$fila['crystallizable']."</td>";
+                            echo "<td>".$fila['crystal_type']."</td>";
+                            echo "<td>".$fila['weaponType']."</td>";
+                            echo "<td>".$fila['sellable']."</td>";
+                            echo "<td>".$fila['dropable']."</td>";
+                            echo "<td>".$fila['destroyable']."</td>";
+                            echo "<td>".$fila['tradeable']."</td>";
+                            echo "</tr>";
+                        }
                         $con = Conexion::desconectar(); /* Comentario2: Aplicar una desconexion ya que se completo la consulta*/
                     }
                 ?>

@@ -1,9 +1,8 @@
 <?php
-include("db/Conexion.php");
-$con = Conexion::conectar();
-@$radio = $_POST['buscar'];
-@$dato = $_POST['dato'];
-
+    include("db/Conexion.php");
+    $con = Conexion::conectar();
+    @$radio = $_POST['buscar'];
+    @$dato = $_POST['dato'];
 ?>
 <!-- Se hace uso de include para incluir una plantilla y que sea mas facil su modificacion-->
 <?php include('template/header.php');?>

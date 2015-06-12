@@ -5,7 +5,7 @@
                 <div class="col-md-1">
                     <div class="radio">
                         <label>
-                            <input type="radio" name="buscar"  value="id" checked>ID
+                            <input type="radio" name="buscar"  value="id">ID
                         </label>
                     </div>
                 </div>
@@ -23,7 +23,6 @@
                     <button type="submit" class="btn btn-default" id="buscar">Buscar</button>
                 </div>
             </div>
-
         </form>
     </div>
 </div>
