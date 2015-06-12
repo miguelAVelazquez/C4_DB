@@ -1,58 +1,16 @@
-<!-- ESTO ES UNA PAGINA CON DISEÑO DE BOOTSTRAP-->
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CUALQUIER OTRO TAG VA DEBAJO DE AQUI -->
-
-    <title>Buscador C4</title>
-    <!-- Hojas de estilo de Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
-    <!-- Hoja de estilo CSS -->
-    <link href="css/sitio.css" rel="stylesheet">
-
-</head>
-<body>
+<!-- Se hace uso de include para incluir una plantilla y que sea mas facil su modificacion-->
+<?php include('template/header.php');?>
 <div class="container">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index">Inicio</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="nav navbar-nav">
-                    <li><a href="etc_item">Etc item<span class="sr-only">(current)</span></a></li>
-                    <li><a href="armor">Armors</a></li>
-                    <li><a href="weapon">Weapons</a></li>
-                    <li><a href="npc">Npcs</a></li>
-                    <li><img src="img/blanco.jpg"/></li>
-                    <li><img src="img/c4_logo.png"/></li>
-                    <li><img src="img/devsadmins.png"/></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
+    <!-- Inclusion de la barra de navegacion -->
+    <?php include('template/navbar.php');?>
     <div class="row">
         <div class="col-md-12">
-            Selecciona alguna categoria para empezar a buscar.
+            <div class="well">
+                <!-- Aqui va el contenido que quieras agregar como un saludo o una instruccion -->
+                <h1>Bienvenidos</h1>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum</p>
+            </div>
         </div>
     </div>
 </div>
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+<?php include('template/footer.php');?>

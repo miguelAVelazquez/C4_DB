@@ -1,82 +1,10 @@
-<!-- ESTO ES UNA PAGINA CON DISEÑO DE BOOTSTRAP-->
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CUALQUIER OTRO TAG VA DEBAJO DE AQUI -->
-
-    <title>NPC</title>
-    <!-- Hojas de estilo de Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
-    <!-- Hoja de estilo CSS -->
-    <link href="css/sitio.css" rel="stylesheet">
-
-</head>
-<body>
+<!-- Se hace uso de include para incluir una plantilla y que sea mas facil su modificacion-->
+<?php include('template/header.php');?>
 <div class="container">
-
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-               <a class="navbar-brand" href="index">Inicio</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                   <li><a href="etc_item">Etc item<span class="sr-only">(current)</span></a></li>
-                    <li><a href="armor">Armors</a></li>
-                    <li><a href="weapon">Weapons</a></li>
-                    <li class="active"><a href="npc">Npcs</a></li>
-                    <li><img src="img/blanco.jpg"/></li>
-                    <li><img src="img/c4_logo.png"/></li>
-                    <li><img src="img/devsadmins.png"/></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
-    <div class="row">
-        <div class="col-md-12">
-            <form method="post" action="npc" >
-                <div class="row">
-                    <div class="col-md-1">
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="buscar"  value="id" checked>ID
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-md-1">
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="buscar" value="nombre">Nombre
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <input type="text" class="form-control" name="dato">
-                    </div>
-                    <div class="col-md-1">
-                        <button type="submit" class="btn btn-default" id="buscar">Buscar</button>
-                    </div>
-                </div>
-
-            </form>
-        </div>
-    </div>
-
+    <!-- Inclusion de la barra de navegacion -->
+    <?php include('template/navbar.php');?>
+    <!-- Formulario de busqueda -->
+    <?php include('template/formulario-busqueda.php');?>
     <div class="row">
         <div class="col-md-12">
             <table class="table">
@@ -131,7 +59,4 @@
         </div>
     </div>
 </div>
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+<?php include('template/footer.php');?>
