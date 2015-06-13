@@ -1,5 +1,6 @@
 <!-- Se hace uso de include para incluir una plantilla y que sea mas facil su modificacion-->
 <?php include('template/header.php');?>
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -16,17 +17,18 @@
         <div class="col-md-12">
             <div class="well">
                 <!-- Aqui va el contenido que quieras agregar como un saludo o una instruccion -->
-                <h1>Bienvenido(a) al sistema de búsqueda de la crónica C4!</h1>
-                <h2><strong>Instrucciones:</strong></h2>
+                <h1>Welcome to the search system for Scions of Destiny!</h1>
+                <h2><strong>Instructions:</strong></h2>
                 <ul>
-                    <li>Selecciona la categoria (Etc item, Armors ,etc...).</li>
-                    <li>Elige el método de búsqueda (ID o Nombre).</li>
-                    <li>Ingresa el número (en caso de ser ID) o la palabra relacionada (en caso de ser Nombre).</li>
-                    <li>Presiona el botón <en>Buscar</en></li>
+                    <li>Select the category (Etc item, Armors, etc ...).</li>
+                    <li>Select the search method (ID and Name).</li>
+                    <li>Enter the number (in case of ID) or the related word (in case of name).</li>
+                    <li>Press the <en>Search</en> button.</li>
                 </ul>
                 <br>
-                <h3><strong>Nota:</strong></h3>
-                <p>En caso de no aparecer ningún registro es por que no se encontró.</p>
+                <div class="alert alert-info" role="alert">
+                    <strong>Note:</strong> In case of not show is because no record was found.
+                </div>
             </div>
         </div>
     </div>

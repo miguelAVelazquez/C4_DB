@@ -9,7 +9,7 @@
     <!-- CUALQUIER OTRO TAG VA DEBAJO DE AQUI -->
     <link rel="alternate" hreflang="es" href="http://devsc4.hol.es/"/>
     
-    <title>Buscador C4</title>
+    <title>L2 Calc - C4</title>
     <!-- Hojas de estilo de Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
