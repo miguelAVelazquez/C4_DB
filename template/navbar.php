@@ -21,8 +21,8 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                        <li><a href="index">English</a></li>
-                        <li><a href="es/">Spanish</a></li>
+                        <li><a href="http://devsc4.hol.es/">English</a></li>
+                        <li><a href="http://es.devsc4.hol.es/">Spanish</a></li>
                   </ul>
                 </li>
             </ul>
