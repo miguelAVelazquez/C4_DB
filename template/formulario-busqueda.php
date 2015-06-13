@@ -12,15 +12,15 @@
                 <div class="col-md-1">
                     <div class="radio">
                         <label>
-                            <input type="radio" name="buscar" value="nombre">Nombre
+                            <input type="radio" name="buscar" value="nombre">Name
                         </label>
                     </div>
                 </div>
                 <div class="col-md-2">
-                    <input type="text" class="form-control" name="dato" placeholder="<- selecciona" required>
+                    <input type="text" class="form-control" name="dato" placeholder="<- Select option" required>
                 </div>
                 <div class="col-md-1">
-                    <button type="submit" class="btn btn-default" id="buscar">Buscar</button>
+                    <button type="submit" class="btn btn-default" id="buscar">Search</button>
                 </div>
             </div>
         </form>

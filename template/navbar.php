@@ -15,14 +15,13 @@
         <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav">
                 <li><a href="etc_item">Etc item</a></li>
-                <li><a href="armor">Armors</a></li>
-                <li><a href="weapon">Weapons</a></li>
-                <li><a href="npc">Npcs</a></li>
+                <li><a href="armor">Armor</a></li>
+                <li><a href="weapon">Weapon</a></li>
+                <li><a href="npc">NPC</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><img src="img/c4_logo.png"/></li>
                 <li><img src="img/devsadmins.png"/></li>
-
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
