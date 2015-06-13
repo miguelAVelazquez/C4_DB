@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+=======
+nav a
+{
+	font-size: 20px;
+	transition: font-size 0.5s;
+}
+nav a:hover
+{
+	font-size: 25px;
+	color: #F2B544 !important;
+	transition: font-size 0.5s;		
+}
+
+
+>>>>>>> c28178597394f6e0c75166ce1fc3134007fb16ed
 body{
 	background-image: url(../img/goddard_wallpaper.jpg); 
 	background-repeat: no-repeat;
