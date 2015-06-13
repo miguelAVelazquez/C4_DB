@@ -13,7 +13,8 @@
     <?php include('template/formulario-busqueda.php');?>
     <div class="row">
         <div class="col-md-12">
-            <table class="table table-responsive">
+            <div class="table-responsive">
+            <table class="table">
                 <thead>
                     <tr>
                         <th>item_id</th>
@@ -64,6 +65,7 @@
                     ?>
                 </tbody>
             </table>
+            </div>
         </div>
     </div>
 </div>

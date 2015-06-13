@@ -16,6 +16,6 @@
     <link href="css/sitio.css" rel="stylesheet">
 
     <script src="js/jquery-1.11.3.min.js"></script>
-    <script src='js/jquery-1.7.1.js' type='text/javascript'></script>
+    <!--<script src='js/jquery-1.7.1.js' type='text/javascript'></script>-->
 </head>
 <body>

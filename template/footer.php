@@ -9,26 +9,29 @@
 <script type='text/javascript'>
 	//
 	// Botón para Ir Arriba
-	jQuery.noConflict();
-	jQuery(document).ready(function() {
-		jQuery("#IrArriba").hide();
-		jQuery(function () {
-			jQuery(window).scroll(function () {
-			if (jQuery(this).scrollTop() > 200) {
-				jQuery('#IrArriba').fadeIn();
-			} 
-			else {
-				jQuery('#IrArriba').fadeOut();
-			}
+
+	$(document).ready(function()
+    {
+		$("#IrArriba").hide();
+		$(function ()
+        {
+			$(window).scroll(function ()
+            {
+                if ($(this).scrollTop() > 200)
+                {
+                    $('#IrArriba').fadeIn();
+                }
+			    else
+                {
+				    $('#IrArriba').fadeOut();
+			    }
 			});
-			jQuery('#IrArriba a').click(function () {
-				jQuery('body,html').animate({
-				scrollTop: 0
-				}, 800);
+			$('#IrArriba a').click(function ()
+            {
+				$('body,html').animate({scrollTop: 0}, 800);
 				return false;
 			});
 		});
-
 	});
 </script>
 </body>
