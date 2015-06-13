@@ -34,5 +34,9 @@
 		});
 	});
 </script>
+<nav class="navbar navbar-inverse navbar-fixed-bottom text-center" role="navigation">
+    <br>
+    <p style="color:#fff">Sistema de busqueda de la cronica C4 &copy; 2015 algunos derechos reservados. con la colaboracion de <a href="http://uninformatico.com" style="color:peachpuff">uninformatico.com</a></p>
+</nav>
 </body>
 </html>

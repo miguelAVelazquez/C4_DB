@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default  navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -18,9 +18,11 @@
                 <li><a href="armor">Armors</a></li>
                 <li><a href="weapon">Weapons</a></li>
                 <li><a href="npc">Npcs</a></li>
-                <li><img src="img/blanco.jpg"/></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
                 <li><img src="img/c4_logo.png"/></li>
                 <li><img src="img/devsadmins.png"/></li>
+
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
