@@ -18,6 +18,13 @@
                 <li><a href="armor">Armor</a></li>
                 <li><a href="weapon">Weapon</a></li>
                 <li><a href="npc">NPC</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                        <li><a href="index">English</a></li>
+                        <li><a href="es/">Spanish</a></li>
+                  </ul>
+                </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><img src="img/c4_logo.png"/></li>
