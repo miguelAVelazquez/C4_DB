@@ -51,6 +51,7 @@
                         foreach( $con->query( $consultaSQL ) as $fila )
                             {
                                 echo "<tr>";
+                                echo "<td><img src='img/icon/".$fila['icon']."_0.bmp'></td>";
                                 echo "<td>".$fila['item_id']."</td>";
                                 echo "<td>".$fila['name']."</td>";
                                 echo "<td>".$fila['bodypart']."</td>";

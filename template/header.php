@@ -1,13 +1,12 @@
 <!-- ESTO ES UNA PAGINA CON DISEÑO DE BOOTSTRAP-->
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="en"
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CUALQUIER OTRO TAG VA DEBAJO DE AQUI -->
-    <link rel="alternate" hreflang="es" href="http://devsc4.hol.es/"/>
+    <link rel="alternate" hreflang="en" href="http://devsc4.hol.es/"/>
     
     <title>L2 Calc - C4</title>
     <!-- Hojas de estilo de Bootstrap -->
