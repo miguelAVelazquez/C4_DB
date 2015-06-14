@@ -19,6 +19,7 @@ $con = Conexion::conectar();
             <table class="table">
                 <thead>
                     <tr>
+                        <th>icon</th>
                         <th>item_id</th>
                         <th>name</th>
                         <th>bodypart</th>
@@ -51,6 +52,7 @@ $con = Conexion::conectar();
                         foreach( $con->query( $consultaSQL ) as $fila )
                         {
                             echo "<tr>";
+                            echo "<td><img src='img/icon/".$fila['icon']."_0.bmp'></td>";
                             echo "<td>".$fila['item_id']."</td>";
                             echo "<td>".$fila['name']."</td>";
                             echo "<td>".$fila['bodypart']."</td>";

@@ -17,6 +17,7 @@
             <table class="table">
                 <thead>
                     <tr>
+                        <th>icon</th>
                         <th>item_id</th>
                         <th>name</th>
                         <th>crytallizable</th>
@@ -48,6 +49,7 @@
                             foreach( $con->query( $consultaSQL ) as $fila )
                             {
                                 echo "<tr>";
+                                echo "<td><img src='img/l2/" . $fila['icon'] . "_0.bmp'></td>";
                                 echo "<td>".$fila['item_id']."</td>";
                                 echo "<td>".$fila['name']."</td>";
                                 echo "<td>".$fila['crystallizable']."</td>";

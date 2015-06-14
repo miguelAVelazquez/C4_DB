@@ -18,6 +18,7 @@
             <table class="table">
                 <thead>
                     <tr>
+                        <th>icon</th>
                         <th>item_id</th>
                         <th>name</th>
                         <th>bodypart</th>

@@ -12,7 +12,7 @@
                 <div class="col-md-1">
                     <div class="radio">
                         <label>
-                            <input type="radio" name="buscar" value="nombre">Name
+                            <input type="radio" name="buscar" value="nombre" required>Name
                         </label>
                     </div>
                 </div>
