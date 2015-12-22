@@ -1,6 +1,6 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Marca y palanca quedan agrupados para una mejor visualización en dispositivos móviles -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
                 <span class="sr-only">Toggle navigation</span>
@@ -14,15 +14,15 @@
         <!-- Aqui van todos los links de la navbar -->
         <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav">
-                <li><a href="etc_item">Etc item</a></li>
-                <li><a href="armor">Armor</a></li>
-                <li><a href="weapon">Weapon</a></li>
+                <li><a href="etc_item">Otros items</a></li>
+                <li><a href="armor">Armaduras</a></li>
+                <li><a href="weapon">Armas</a></li>
                 <li><a href="npc">NPC</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Lenguaje<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                        <li><a href="index">English</a></li>
-                        <li><a href="es/">Spanish</a></li>
+                        <li><a href="../index">Inglés</a></li>
+                        <li><a href="index">Español</a></li>
                   </ul>
                 </li>
                 <li>
@@ -30,9 +30,10 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><img src="img/c4_logo.png"/></li>
-                <li><img src="img/devsadmins.png"/></li>
+                <li><img src="../img/c4_logo.png"/></li>
+                <li><img src="../img/devsadmins.png"/></li>
             </ul>
+
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
