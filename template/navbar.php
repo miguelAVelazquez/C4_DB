@@ -25,9 +25,8 @@
                         <li><a href="es/">Spanish</a></li>
                   </ul>
                 </li>
-                <li>
-                    <a href="http://devsc6.hol.es/">C6 Calc<span class="label label-info">New</span></a>
-                </li>
+                <li><a href="http://www.l2devsadmins.com/">Forum</a></li>
+                <li><a href="http://devsc6.hol.es/">C6 DB<span class="label label-info">New</span></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><img src="img/c4_logo.png"/></li>

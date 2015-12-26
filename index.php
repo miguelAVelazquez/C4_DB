@@ -29,9 +29,11 @@
                 <div class="alert alert-info" role="alert">
                     <strong>Note:</strong> In case of not show is because no record was found.
                 </div>
+                <center>
+                    <span class="label label-info"><a href="http://www.l2devsadmins.com/">Visit us L2DevsAdmins</span>
+                </center>
             </div>
         </div>
     </div>
 </div>
-
 <?php include('template/footer.php');?>

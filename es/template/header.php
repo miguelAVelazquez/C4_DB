@@ -9,7 +9,7 @@
     <!-- Cualquier otro TAG va debajo de aquí -->
     <link rel="alternate" hreflang="es" href="http://devsc4.hol.es/"/>
     
-    <title>Buscador C4</title>
+    <title>L2DB - C4</title>
     <!-- Hojas de estilo de Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/bootstrap-theme.min.css" rel="stylesheet"/>
