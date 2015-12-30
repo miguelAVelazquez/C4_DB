@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="col-md-2">
-                    <input type="text" class="form-control" name="dato" placeholder="<-- Elige una opción" required>
+                    <input type="text" class="form-control" name="dato" placeholder="Ingresa el dato" required>
                 </div>
                 <div class="col-md-1">
                     <button type="submit" class="btn btn-default" id="buscar">Buscar</button>

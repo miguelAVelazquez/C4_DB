@@ -14,10 +14,11 @@
         <!-- Aqui van todos los links de la navbar -->
         <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav">
-                <li><a href="etc_item">Otros items</a></li>
-                <li><a href="armor">Armaduras</a></li>
-                <li><a href="weapon">Armas</a></li>
+                <li><a href="etc_item">Otro item</a></li>
+                <li><a href="armor">Armadura</a></li>
+                <li><a href="weapon">Arma</a></li>
                 <li><a href="npc">NPC</a></li>
+                <li><a href="skill">Habilidad</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Lenguaje<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
