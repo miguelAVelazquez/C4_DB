@@ -18,6 +18,7 @@
                 <li><a href="armor">Armor</a></li>
                 <li><a href="weapon">Weapon</a></li>
                 <li><a href="npc">NPC</a></li>
+                <li><a href="skill">Skill</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
