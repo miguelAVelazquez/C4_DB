@@ -45,9 +45,9 @@ _wau.push(["tab", "l1gsyeikhpu1", "5u5", "left-upper"]);
 s.src="http://widgets.amung.us/tab.js";
 document.getElementsByTagName("head")[0].appendChild(s);
 })();</script>
-<nav class="navbar navbar-inverse navbar-fixed-bottom text-center" role="navigation">
-    <br>
-    <p style="color:#fff">Some rights reserved 2015 &copy;. Powered by <a href="http://uninformatico.com" style="color:peachpuff">uninformatico.com</a></p>
-</nav>
+<footer>
+	Powered by <a href="http://uninformatico.com">uninformatico.com</a> 2016 &copy;
+</footer>
+</div>
 </body>
 </html>

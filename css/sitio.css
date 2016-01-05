@@ -25,17 +25,31 @@ td,th {
    	opacity: 0.65;
 }
 
+footer {
+	text-align: center;
+	width: 100%;
+	color: peachpuff;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+footer a:hover{
+	color:white;
+	text-decoration: none;
+}
+
 /* Botón Ir Arriba
 ----------------------------------------------- */
 #IrArriba {
 	position: fixed;
-	bottom: 70px; /* Distancia desde abajo */
-	right: 30px; /* Distancia desde la derecha */
+	bottom: 2px; /* Distancia desde abajo */
+	right: 2px; /* Distancia desde la derecha */
 }
 
 #IrArriba span {
-	width: 60px; /* Ancho del botón */
-	height: 60px; /* Alto del botón */
+	width: 30px; /* Ancho del botón */
+	height: 30px; /* Alto del botón */
 	display: block;
 	background: url(../img/flecha-arriba.png) no-repeat center center;
 }
