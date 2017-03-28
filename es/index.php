@@ -29,6 +29,9 @@
                 <div class="alert alert-info" role="alert">
                     <strong>Nota:</strong> En caso de no aparecer ningún registro es por que no se encontró.
                 </div>
+                <center>
+                    <span class="label label-info"><a href="http://l2devsadmins.net/l2devsAdmins2-0-11/">Visitanos en L2DevsAdmins</span>
+                </center>
             </div>
         </div>
     </div>

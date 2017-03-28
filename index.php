@@ -30,7 +30,7 @@
                     <strong>Note:</strong> In case of not show is because no record was found.
                 </div>
                 <center>
-                    <span class="label label-info"><a href="http://www.l2devsadmins.com/">Visit us L2DevsAdmins</span>
+                    <span class="label label-info"><a href="http://l2devsadmins.net/l2devsAdmins2-0-11/">Visit us L2DevsAdmins</span>
                 </center>
             </div>
         </div>
