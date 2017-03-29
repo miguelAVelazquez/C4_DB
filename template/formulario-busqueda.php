@@ -20,7 +20,7 @@
                     <input type="text" class="form-control" name="dato" placeholder="<- Select option" required>
                 </div>
                 <div class="col-md-1">
-                    <button type="submit" class="btn btn-default" id="buscar">Search</button>
+                    <button type="submit" class="btn btn-primary" id="buscar">Search</button>
                 </div>
             </div>
         </form>

@@ -1,3 +1,5 @@
+<br>
+<br>
 <div class="row">
         <div class="col-md-12">
             <div class="table-responsive">
@@ -11,7 +13,7 @@
                         {
                             echo "<th>$value</th>";
                         } 
-                            echo "/<tr>";
+                            echo "<tr>";
                             echo "</thead>";
                             echo "<tbody id=\"cuerpo\">";
                     }  

@@ -20,7 +20,7 @@
                     <input type="text" class="form-control" name="dato" placeholder="Ingresa el dato" required>
                 </div>
                 <div class="col-md-1">
-                    <button type="submit" class="btn btn-default" id="buscar">Buscar</button>
+                    <button type="submit" class="btn btn-primary" id="buscar">Buscar</button>
                 </div>
             </div>
         </form>
