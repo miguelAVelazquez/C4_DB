@@ -12,15 +12,15 @@
     include('template/formulario-busqueda.php');
     // Encabezados de la tabla enviados por un array
     require_once('template/tabla_inicio.php');
-        crearEncabezados(array("icon","class_name", "class_id", "skill_id", "level", "name", "sp", "min_level"));
+        crearEncabezados(array("icon", "class_id", "class_name", "skill_id", "skill_max_level", "name", "sp", "min_level"));
 
     if($radio == "id" && $dato != "")
     {
-        $consultaSQL = "SELECT class_name, class_id, skill_id, MAX(level) as maximo, name, sp, min_level FROM $tabla WHERE skill_id='$dato'";
+        $consultaSQL = "SELECT class_id, class_name, skill_id, MAX(level) as skill_max_level, name, sp, min_level FROM $tabla WHERE skill_id='$dato' GROUP BY class_id ORDER BY skill_id ;";
     }
     else if ($radio =="nombre" && $dato != "")
     {
-        $consultaSQL = "SELECT class_name, class_id, skill_id, MAX(level) as maximo, name, sp, min_level FROM $tabla WHERE name LIKE '%$dato%'";
+        $consultaSQL = "SELECT class_id, class_name, skill_id, MAX(level) as skill_max_level, name, sp, min_level FROM $tabla WHERE name LIKE '%$dato%' GROUP BY class_id ORDER BY skill_id;";
     }
     else
     {
@@ -57,10 +57,10 @@
             {
                 echo "<tr>";
                 echo "<td><img src='img/icon/".$imgIcon.".bmp'></td>";
-                echo "<td>".$fila['class_name']."</td>";
                 echo "<td>".$fila['class_id']."</td>";
+                echo "<td>".$fila['class_name']."</td>";
                 echo "<td>".$fila['skill_id']."</td>";
-                echo "<td>".$fila['maximo']."</td>";
+                echo "<td>".$fila['skill_max_level']."</td>";
                 echo "<td>".$fila['name']."</td>";
                 echo "<td>".$fila['sp']."</td>";
                 echo "<td>".$fila['min_level']."</td>";
