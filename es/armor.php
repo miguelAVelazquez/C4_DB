@@ -3,6 +3,7 @@
     $con = Conexion::conectar();
     @$radio = $_POST['buscar'];
     @$dato = $_POST['dato'];
+    $dato = preg_replace("/[^A-Za-z0-9 ]/", '', $dato);
     $tabla = "armor";
     //Se hace uso de include para incluir una plantilla y que sea mas facil su modificacion-->
     include('template/header.php');
