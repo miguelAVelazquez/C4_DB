@@ -23,6 +23,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Lenguaje<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                         <li><a href="../index">Inglés</a></li>
+                        <li class="divider"></li>
                         <li><a href="index">Español</a></li>
                   </ul>
                 </li>
