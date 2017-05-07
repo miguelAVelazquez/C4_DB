@@ -11,6 +11,7 @@
     include('template/navbar.php');
     // Formulario de busqueda
     include('template/formulario-busqueda.php');
+    include('template/resultado.php'); // Este maneja la variable $resultado
     // Encabezados de la tabla enviados por un array
     require_once('template/tabla_inicio.php');
         crearEncabezados(array("icon", "class_id", "class_name", "skill_id", "skill_max_level", "name", "sp", "min_level"));
@@ -48,28 +49,21 @@
                 $imgIcon = "skill";
             }
             $imgIcon .= $skillID."_0";
-            if ($imgIcon == "skill000_0")
-            {
-                echo "<tr>";
-                echo "<td colspan='8'>No results found</td>";
-                echo "</tr>";
-            }
-            else
-            {
-                echo "<tr>";
-                echo "<td><img src='img/icon/".$imgIcon.".bmp'></td>";
-                echo "<td>".$fila['class_id']."</td>";
-                echo "<td>".$fila['class_name']."</td>";
-                echo "<td>".$fila['skill_id']."</td>";
-                echo "<td>".$fila['skill_max_level']."</td>";
-                echo "<td>".$fila['name']."</td>";
-                echo "<td>".$fila['sp']."</td>";
-                echo "<td>".$fila['min_level']."</td>";
-                echo "</tr>";
-            }
-
+            
+            echo "<tr>";
+            echo "<td><img src='img/icon/".$imgIcon.".bmp'></td>";
+            echo "<td>".$fila['class_id']."</td>";
+            echo "<td>".$fila['class_name']."</td>";
+            echo "<td>".$fila['skill_id']."</td>";
+            echo "<td>".$fila['skill_max_level']."</td>";
+            echo "<td>".$fila['name']."</td>";
+            echo "<td>".$fila['sp']."</td>";
+            echo "<td>".$fila['min_level']."</td>";
+            echo "</tr>";
+            $resultado++;
         }
         $con = Conexion::desconectar(); /* Desconectar: Aplicar una desconexion ya que se completo la consulta*/
+        mostrarResultado($resultado);
     }
 ?>
 <script type="text/javascript">

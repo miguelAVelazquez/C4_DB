@@ -11,6 +11,7 @@
     include('template/navbar.php');
     // Formulario de busqueda
     include('template/formulario-busqueda.php');
+    include('template/resultado.php'); // Este maneja la variable $resultado
     // Encabezados de la tabla enviados por un array
     require_once('../template/tabla_inicio.php');
         crearEncabezados(array("id", "id_plantilla", "nombre", "titulo", "clase", "nivel"));
@@ -39,8 +40,10 @@
             echo "<td>".$fila['class']."</td>";
             echo "<td>".$fila['level']."</td>";
             echo "</tr>";
+            $resultado++;
         }
         $con = Conexion::desconectar(); /* Desconectar: Aplicar una desconexion ya que se completo la consulta*/
+        mostrarResultado($resultado);
     }
 ?>
 <script type="text/javascript">
