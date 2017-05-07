@@ -16,12 +16,7 @@
                     <li>Presiona el botón <en>Buscar</en></li>
                 </ul>
                 <br>
-                <div class="alert alert-info" role="alert">
-                    <strong>Nota:</strong> En caso de no aparecer ningún registro es por que no se encontró.
-                </div>
-                <center>
-                    <span class="label label-info"><a href="http://l2devsadmins.net/l2devsAdmins2-0-11/">Visitanos en L2DevsAdmins</span>
-                </center>
+                <center><a class="text-info" href="http://l2devsadmins.net/l2devsAdmins2-0-11/">Visit us L2DevsAdmins</a></center>
             </div>
         </div>
     </div>

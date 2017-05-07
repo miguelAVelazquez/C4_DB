@@ -16,12 +16,7 @@
                     <li>Press the <en>Search</en> button.</li>
                 </ul>
                 <br>
-                <div class="alert alert-info" role="alert">
-                    <strong>Note:</strong> In case of not show is because no record was found.
-                </div>
-                <center>
-                    <span class="label label-primary"><a href="http://l2devsadmins.net/l2devsAdmins2-0-11/">Visit us L2DevsAdmins</span>
-                </center>
+                <center><a class="text-info" href="http://l2devsadmins.net/l2devsAdmins2-0-11/">Visit us L2DevsAdmins</a></center>
             </div>
         </div>
     </div>
