@@ -9,6 +9,7 @@
         }
         else if ($pResultado == 1)
         {
+            echo "<center><h2>1 resultado</h2><center>";
         }
         else if ($pResultado >= 2)
         {
