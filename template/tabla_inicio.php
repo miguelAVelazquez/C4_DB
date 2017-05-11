@@ -1,7 +1,11 @@
-<br>
+<div class="spinner" id="cargando" hidden>
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+</div>
 <div class="row">
         <div class="col-md-12">
-            <div class="table-responsive">
+            <div hidden class="table-responsive" id="tabla-resultado">
                 <?php 
                     function crearEncabezados($array) 
                     { 

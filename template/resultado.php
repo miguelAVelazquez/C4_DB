@@ -5,15 +5,15 @@
     {
         if ($pResultado <= 0)
         {
-           echo "<center><p class='text-warning'>No results</p><center>";
+           echo "<center><h2>No results</h2><center>";
         }
         else if ($pResultado == 1)
         {
-             echo "<center><p class='text-warning'>1 result</p><center>";
+             echo "<center><h2>1 result</h2><center>";
         }
         else if ($pResultado >= 2)
         {
-            echo "<center><p class='text-warning'>". $pResultado. " results</p><center>";
+            echo "<center><h2>". $pResultado. " results</h2><center>";
         }
     }
 ?>

@@ -29,7 +29,8 @@
         $con = Conexion::desconectar(); /* Comentario1: Aplicar una desconexion ya que no hay nada seleccionado*/
     }
     if ($con != null)
-    {
+    {   
+        echo "<script type='text/javascript'>cargarConsulta();</script>"; 
         foreach( $con->query( $consultaSQL ) as $fila )
         {
             echo "<tr>";
@@ -49,6 +50,7 @@
         }
         $con = Conexion::desconectar(); /* Desconectar: Aplicar una desconexion ya que se completo la consulta*/
         mostrarResultado($resultado);
+        echo "<script type='text/javascript'>mostrarResultado();</script>"; 
     }
 ?>
 <script type="text/javascript">
