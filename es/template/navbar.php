@@ -23,16 +23,17 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Lenguaje<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                         <li><a href="../index">Inglés</a></li>
+                        <li class="divider"></li>
                         <li><a href="index">Español</a></li>
                   </ul>
                 </li>
-                <li><a href="http://www.l2devsadmins.com/">Foro</a></li>
-                <li><a href="http://devsc6.hol.es/">C6 DB<span class="label label-info">New</span></a></li>
+                <li><a href="http://l2devsadmins.net/l2devsAdmins2-0-11/">Foro</a></li>
+                <!--li><a href="http://devsc6.hol.es/">C6 DB<span class="label label-info">New</span></a></li-->
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <!--ul class="nav navbar-nav navbar-right">
                 <li><img src="../img/c4_logo.png"/></li>
                 <li><img src="../img/devsadmins.png"/></li>
-            </ul>
+            </ul-->
 
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

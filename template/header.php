@@ -12,10 +12,12 @@
     <link href="cursor/cursor.css" rel="stylesheet" type="text/css"/>
     <!-- Hojas de estilo de Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <!--link href="css/bootstrap-theme.min.css" rel="stylesheet"/-->
     <!-- Hoja de estilo propios -->
     <link href="css/sitio.css" rel="stylesheet">
+    <link href="css/carga.css" rel="stylesheet">
     <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/funciones.js" type="text/javascript"></script>
 </head>
 <body>
     <div class="container">
