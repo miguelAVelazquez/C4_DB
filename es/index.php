@@ -1,15 +1,5 @@
 <!-- Se hace uso de include para incluir una plantilla y que sea mas facil su modificacion-->
 <?php include('template/header.php');?>
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
 <div class="container">
     <!-- Inclusion de la barra de navegacion -->
     <?php include('template/navbar.php');?>
@@ -26,9 +16,7 @@
                     <li>Presiona el botón <en>Buscar</en></li>
                 </ul>
                 <br>
-                <div class="alert alert-info" role="alert">
-                    <strong>Nota:</strong> En caso de no aparecer ningún registro es por que no se encontró.
-                </div>
+                <center><a class="text-info" href="http://l2devsadmins.net/l2devsAdmins2-0-11/">Visit us L2DevsAdmins</a></center>
             </div>
         </div>
     </div>
