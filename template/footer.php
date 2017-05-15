@@ -42,7 +42,7 @@
 <footer>
 	<div>
 	<a href="https://www.facebook.com/DAReynald0/" target="_blank"><img alt="Siguenos en Facebook"
-	 height="48" src="http://2.bp.blogspot.com/-GlLV_MydcBk/UiX09MYOSfI/AAAAAAAAB18/5vkDADo6qEw/s1600/Facebook+alt+1.png" 
+	 height="48" src="http://cesavetlax.com.mx/images/Index/facebook.png" 
 	 title="Siguenos en Facebook" width="48" /></a>
 	</div>
 	Powered by <a href="http://uninformatico.com">uninformatico.com</a> 2016 &copy;
